@@ -4,3 +4,4 @@
 *.user
 *.suo
 publish-staging/
+publish-final/
