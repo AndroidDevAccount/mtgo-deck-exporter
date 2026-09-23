@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck>
+  <DeckName>Sample Blue Deck</DeckName>
+  <Cards CatID="1" Quantity="4" Sideboard="false" Name="Counterspell" />
+  <Cards CatID="2" Quantity="20" Sideboard="false" Name="Island" />
+  <Cards CatID="3" Quantity="2" Sideboard="true" Name="Hydroblast" />
+</Deck>
