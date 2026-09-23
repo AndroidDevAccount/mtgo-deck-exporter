@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>MTGO Deck Exporter</AssemblyName>
     <RootNamespace>MtgoDeckExporter</RootNamespace>
+    <Version>1.0.1</Version>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Assets\app-icon.ico</ApplicationIcon>
     <PublishSingleFile>true</PublishSingleFile>

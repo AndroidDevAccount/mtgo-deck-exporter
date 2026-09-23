@@ -21,6 +21,7 @@ public static class DeckExporter
 
         return format switch
         {
+            ExportFormat.Moxfield => string.Join(Environment.NewLine, main.Concat(sideboard).Select(Line)),
             ExportFormat.Arena => Sections(main, sideboard, "Deck", "Sideboard"),
             ExportFormat.PlainText => Plain(main, sideboard),
             ExportFormat.Csv => Csv(main, sideboard),
